@@ -49,7 +49,7 @@ Plug 'stefandtw/quickfix-reflector.vim'
 Plug 'dense-analysis/ale'
 
 "TreeSitter
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 "Themes
 Plug 'arzg/vim-colors-xcode'
@@ -141,8 +141,8 @@ let g:neomake_error_sign = {
 " ALE Configuration
 nmap <silent> [c <Plug>(ale_previous_wrap)
 nmap <silent>] c <Plug>(ale_next_wrap)
-let g:ale_sign_error = '❌'
-let g:ale_sign_warning = '⚠️'
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
 
 " Omni Completition
 filetype plugin on
