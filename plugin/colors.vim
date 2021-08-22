@@ -1,6 +1,5 @@
 fun! VimColors()
-    colorscheme dracula
-    set background=dark
+    syntax on
 
     let g:grovebox_contrast_dark = 'hard'
     if exists('+termguicolors')
@@ -20,4 +19,4 @@ fun! VimColors()
 endfun
 call VimColors()
 
-nnoremap <leader>vwm :call VimColors() <cr>
+nnoremap <leader>cwm :call VimColors() <cr>

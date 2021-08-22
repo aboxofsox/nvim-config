@@ -18,3 +18,6 @@ set incsearch
 set scrolloff=8
 set colorcolumn=160
 set signcolumn=yes
+set completeopt=menuone,noinsert,noselect
+
+colorscheme onedark

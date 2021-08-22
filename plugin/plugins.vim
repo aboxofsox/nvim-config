@@ -26,12 +26,18 @@ Plug 'preservim/nerdtree'
 Plug 'dense-analysis/ale'
 
 "TreeSitter
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-treesitter/nvim-treesitter-textobjects'
+
+" Treesitter plugins
+Plug 'David-Kunz/treesitter-unit'
+
 
 "Themes
 Plug 'arzg/vim-colors-xcode'
 Plug 'dracula/vim', {'as':'dracula'}
 Plug 'gruvbox-community/gruvbox'
+Plug 'joshdick/onedark.vim'
 
 " Prettier
 Plug 'prettier/vim-prettier', {'do': 'npm install'}

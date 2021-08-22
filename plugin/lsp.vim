@@ -1,7 +1,6 @@
-set completeopt=menuone,noinsert,noselect
 
-nnoremap <leader>va :lua vim.lsp.buf.definition()<CR>
-nnoremap <leader>vd :lua vim.lsp.buf.definition()<CR>
+nnoremap <leader>kk :lua vim.lsp.buf.definition()<CR>
+nnoremap <leader>jj :lua vim.lsp.buf.definition()<CR>
 nnoremap <leader>vi :lua vim.lsp.buf.implementation()<CR>
 nnoremap <leader>vsh :lua vim.lsp.buf.signature_help()<CR>
 nnoremap <leader>vrr :lua vim.lsp.buf.references()<CR>

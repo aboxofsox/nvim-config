@@ -8,3 +8,4 @@ augroup ABOXOFSOX
     autocmd!
     autocmd BufWritePre * :call TrimWhiteSpace()
 augroup END
+
