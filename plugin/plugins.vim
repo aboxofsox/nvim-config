@@ -65,4 +65,7 @@ Plug 'hrsh7th/nvim-compe'
 " GCC Comments
 Plug 'tpope/vim-commentary'
 
+" Vue
+Plug 'posva/vim-vue'
+
 call plug#end()

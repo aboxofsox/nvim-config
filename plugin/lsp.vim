@@ -13,6 +13,8 @@ lua << EOF
 require'lspconfig'.tsserver.setup{ on_attach=require'completion'.on_attach}
 require'lspconfig'.pyright.setup{ on_attach=require'completion'.on_attach}
 require'lspconfig'.gopls.setup{ on_attach=require'completion'.on_attach}
+require'lspconfig'.tailwindcss.setup{}
+require'lspconfig'.vls.setup{}
 require'lualine'.setup()
 require'compe'.setup {
   enabled = true;
