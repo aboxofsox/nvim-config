@@ -68,4 +68,10 @@ Plug 'tpope/vim-commentary'
 " Vue
 Plug 'posva/vim-vue'
 
+
+" Snippets
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'rafamadriz/friendly-snippets'
+
 call plug#end()
