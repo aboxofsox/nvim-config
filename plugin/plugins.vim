@@ -73,5 +73,6 @@ Plug 'posva/vim-vue'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'rafamadriz/friendly-snippets'
+Plug 'golang/vscode-go'
 
 call plug#end()
