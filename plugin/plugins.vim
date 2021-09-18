@@ -36,7 +36,7 @@ Plug 'David-Kunz/treesitter-unit'
 "Themes
 Plug 'arzg/vim-colors-xcode'
 Plug 'dracula/vim', {'as':'dracula'}
-Plug 'gruvbox-community/gruvbox'
+" Plug 'gruvbox-community/gruvbox'
 Plug 'joshdick/onedark.vim'
 
 " Prettier
